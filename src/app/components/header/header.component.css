@@ -1,0 +1,12 @@
+
+.header-container {
+  letter-spacing: 1px;
+}
+
+.search-input {
+  width: 150px;
+}
+
+.title:hover {
+  cursor: pointer;
+}

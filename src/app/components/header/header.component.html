@@ -1,0 +1,7 @@
+<header class="header-container" nx-header>
+  <h1 class="title" (click)="refresh()">MOVIES</h1>
+  <nx-formfield class="search-input">
+    <input nxInput type="text" placeholder="Search"
+    (keyup.enter)="searchMovies()" [(ngModel)]="searchedMoviesTitle"/>
+  </nx-formfield>
+</header>
